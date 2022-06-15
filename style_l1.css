@@ -20,14 +20,7 @@
     font-size: 40px;
     background-color: blanchedalmond;
     text-align: center;
-}
-
-.brd {
-    font-size: 30px;
-    border-spacing: 30px;
-    border-collapse: separate;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .imgParf {
@@ -36,6 +29,8 @@
     size: calc();
 }
 
-.trTop {
-    background-color: chartreuse;
+.img {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
 }
