@@ -23,14 +23,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.imgParf {
-    width: 260px;
-    height: 260px;
-    size: calc();
-}
-
 .img {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
+    margin-left: auto;
+    margin-right: auto;    
 }
+
+.imgParf {
+    width: 450px;
+    height: 450px;
+    border: 2px solid salmon;
+}
+
+.img2
+{
+    padding-top: 100px;
+}
+
